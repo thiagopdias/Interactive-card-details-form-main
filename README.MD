@@ -10,4 +10,4 @@ página feito com as tecnologias de:
 - Júrnior
 
 ## Link para poder visualizar a página
-<a href="https://thiagopdias.github.io/notification-page-main/">Acesse aqui</a>
+<a href="https://thiagopdias.github.io/Interactive-card-details-form-main/">Acesse aqui</a>

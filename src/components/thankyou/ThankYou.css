@@ -1,0 +1,18 @@
+.showThakYou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+.hide {
+    display: none;
+}
+
+.show span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}

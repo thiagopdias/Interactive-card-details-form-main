@@ -1,0 +1,83 @@
+.cardFront {
+    width: 44.7rem; 
+    height: 24.5rem;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url('../../images/bg-card-front.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border-radius: 1rem;
+
+    position: absolute;
+    top: 39%;
+    left: 3%;
+    z-index: 2;
+}
+
+.cardFront .ball {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cardFront .ball span:nth-child(1) {
+    display: inline-block;
+
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+    background-color: hsl(0, 0%, 100%);
+
+    margin-right: 1rem;
+}
+
+.cardFront .ball span:nth-child(2) {
+    display: inline-block;
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.cardFront .cardFrontInfo {
+    height: 35%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardFront .cardFrontInfo p {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: .3rem;
+    font-size: 3rem;
+}
+
+.cardFront .cardFrontInfo .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardFront .cardFrontInfo .info span {
+    color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 900px) {
+    .cardFront {
+        top: 15%;
+        left: 10%;
+    }   
+}

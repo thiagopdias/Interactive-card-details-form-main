@@ -1,0 +1,96 @@
+/* MOBILE FIRST */
+.main {
+    max-width: 90rem;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+#sectionCards::before {
+    content: "";
+    width: 100%;
+    height: 40%;
+    background-image: url('../../images/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+
+    position: relative;
+}
+
+.infoCards {
+    height: 45rem;
+}
+
+.controlForm {
+    padding: 0 2rem;
+}
+
+form.show {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.controlForm form.show .infoCardDate {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.controlForm form.show .infoCardDate .monthAndYear {
+    margin-right: 2rem;
+}
+
+.controlForm form.show .infoCardDate .dateCard{
+    display: flex;
+    gap: 1rem;
+}
+
+form.hide {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .main {
+        max-width: 112.4rem;
+
+        display: flex;
+
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    }
+
+    #sectionCards::before {
+        width: 40%;
+        height: 100%;
+        background-image: url('../../images/bg-main-desktop.png');
+    }
+
+    .cards {
+        width: 40vw;
+    }
+
+    .infoCards {
+        height: 100vh;
+    }
+
+    .controlForm {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(0%, -50%);
+        margin-left: 3rem;
+    }
+}

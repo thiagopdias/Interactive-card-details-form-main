@@ -1,0 +1,16 @@
+.btn {
+    display: block;
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background-color: hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 2rem;
+}
+
+.btn:hover {
+    background-image: linear-gradient(90deg, #6448fe, #600594);
+}

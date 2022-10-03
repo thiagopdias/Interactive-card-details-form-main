@@ -1,0 +1,27 @@
+.input {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 2rem;
+}
+
+.input label {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.input input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid hsl(270, 3%, 87%);
+    border-radius: 1rem;
+    outline: none;
+}
+
+.input input:focus {
+    border-image: linear-gradient(to right, #6448fe, #600594) 1;
+}
+
+.input input.error {
+    border: 2px solid hsl(0, 100%, 66%);
+}

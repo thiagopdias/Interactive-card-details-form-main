@@ -1,0 +1,38 @@
+.cardBack {
+    width: 44.7rem; 
+    height: 24.5rem;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url('../../images/bg-card-back.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border-radius: 1rem;
+
+    position: absolute;
+    top: 7%;
+    right: 3%;
+    z-index: 1;
+}
+
+.cardBack span {
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    text-align: right;
+
+    position: absolute;
+    top: 44.5%;
+    right: 12%;
+}
+
+@media (min-width: 900px) {
+    .cardBack {
+        top: 55%;
+        left: 20%;
+    }
+}
